@@ -1,0 +1,157 @@
+body
+{
+    font: var(--fw-normal) var(--base-font) var(--ff-sans);
+ 
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--DNBIXQkc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/jm84t0fmtt3fabtx1rx6.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 8rem;
+  width: min(85%, 54rem);
+  margin: auto;
+}
+h1
+{
+    color:whitesmoke;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+.container
+{
+    text-align: center;
+    width:80%;
+    min-height:90vh;
+    margin:auto;
+}
+.todo
+{
+width:100%;
+/* background-color: tomato; */
+background-color: #1A3D5C;
+padding-bottom: 18px;
+border-radius: 3%;
+color: white;
+border:5px inset whitesmoke;
+border-radius: 2em;
+
+
+}
+input
+{
+    padding:10px;
+    border: none;
+    outline: none;
+    width:80%;
+    /* background-color: #1A3D5C; */
+    background: transparent;
+    color: white;
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
+   
+
+}
+/* .todo:hover
+{
+    border-bottom: 2px groove whitesmoke;
+} */
+#btn
+{
+    background: transparent;
+    color:whitesmoke;
+    /* border:none; */
+    outline: none;
+    border-radius: 50%;
+    font-size: 20px;
+    border:1px grey solid;
+    
+}
+.list-todo
+{
+    /* text-align: center; */
+    width:100%;
+    min-height:60vh;
+    /* margin:auto; */
+   
+    background-color: #1A3D5C;
+   border:3px outset whitesmoke;
+   padding-bottom: 30px;
+   border-radius: 2em;
+    margin-top:20px;
+    box-shadow: 6px 6px 2px 1px gray;
+    /* color:whitesmoke; */
+}
+
+#todo
+{
+    padding : 0 20px 0 20px;
+    
+}
+
+#todo li
+{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding: 10px 0px  10px 0;
+   
+    width:100%;
+    font-family: 'Girassol', cursive;
+    border: 2px solid darkgray;
+    border-left:5px groove honeydew;
+    /* color:darkgray; */
+    color:whitesmoke;
+   font-size: 18px;
+
+   height: 40px;
+   margin: 5px auto;
+   text-align: left;
+}
+#todo button
+{
+    border-radius: 50%;
+    font-size: 20px;
+    border : none;
+    color:black;
+    background-color: red;
+    font-weight: bolder;
+    
+}
+#todo input
+{
+    width: 50px;
+    height: 20px;
+}
+
+#todo li p{
+    display:inline;
+    font-size:25px;
+    
+}
+#todo  .completed
+{
+    text-decoration: line-through;
+    color:lime;
+    
+}
+#todo  .uncompleted
+{
+    text-decoration: none;
+    /* color:black; */
+}
+#clearbtn
+{
+    padding:15px;
+    text-transform: uppercase;
+    font-size:20px;
+    border: none;
+    outline: none;
+    font-family: 'Kaushan Script', cursive;
+
+ /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f05053, #e1eec3); 
+    border: 4px groove honeydew;
+    color:white;
+    font-weight: bolder;
+    border-radius: 2rem;
+}
